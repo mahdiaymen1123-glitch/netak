@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>نطاق | المرجع السياسي</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap">
+<style>
+:root{--bg:#f5f2ec;--ink:#16130f;--mute:#625c52;--card:#fff;--line:#ddd6c9;--navy:#0e1f3d;--accent:#e4572e;--gold:#e9b44c;
+--k:'Reem Kufi','Noto Naskh Arabic',system-ui,sans-serif;--n:'Noto Naskh Arabic',system-ui,serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1120;--ink:#ece8df;--mute:#a49e92;--card:#121b2e;--line:#243049;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0a1120;--ink:#ece8df;--mute:#a49e92;--card:#121b2e;--line:#243049;color-scheme:dark}
+html{scroll-padding-top:70px;scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--n);font-size:1.05rem;line-height:1.85}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1180px,100% - 2rem);margin-inline:auto}
+.top{background:var(--navy);color:#fff}
+.bar{display:flex;align-items:center;gap:1rem;padding:.35rem 0;font-size:.85rem;color:#c9d3e6}
+.bar #date{margin-inline-end:auto}
+.bar button{font:inherit;background:none;border:1px solid #3a4c6e;color:#fff;border-radius:999px;padding:0 .8rem;cursor:pointer}
+.head{display:flex;align-items:center;gap:1.2rem;padding:.9rem 0;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:.7rem;color:#fff}
+.logo svg{width:52px;height:52px;color:#fff;flex:none}
+.wm{font-family:var(--k);font-weight:700;font-size:2.3rem;line-height:1;letter-spacing:0}
+.tag{display:block;font-size:.78rem;color:var(--gold);font-family:var(--n);margin-top:.25rem}
+nav{display:flex;gap:.3rem;flex-wrap:wrap;margin-inline-start:auto}
+nav a{padding:.35rem .9rem;border-radius:999px;font-family:var(--k);font-size:1.02rem;color:#dbe4f5;transition:background .2s}
+nav a:hover,nav a.on{background:var(--accent);color:#fff}
+.ticker{background:var(--accent);color:#fff;display:flex;overflow:hidden;font-weight:600}
+.ticker b{background:#16130f;padding:.3rem 1.1rem;font-family:var(--k);flex:none;position:relative;z-index:1}
+.track{display:flex;width:max-content;animation:tk 50s linear infinite;white-space:nowrap}
+.track span{padding:.3rem 2rem}
+@keyframes tk{to{transform:translateX(50%)}}
+main{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:2rem;padding:2rem 0 3rem;align-items:start}
+.lead{display:grid;grid-template-columns:1.5fr 1fr;gap:1.2rem;margin-bottom:2.2rem}
+.thumb{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:linear-gradient(135deg,var(--c1,#1d3a6b),var(--c2,#0e1f3d))}
+.thumb::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 20%,rgba(255,255,255,.22),transparent 45%),repeating-radial-gradient(circle at 20% 90%,rgba(255,255,255,.07) 0 2px,transparent 2px 22px)}
+.cat{display:inline-block;font-family:var(--k);font-size:.8rem;color:var(--accent);margin-bottom:.15rem}
+.big .thumb{aspect-ratio:16/10}
+.big h2{font-family:var(--k);font-size:clamp(1.5rem,3vw,2.1rem);line-height:1.5;margin:.7rem 0 .3rem}
+.item h3{font-family:var(--k);font-size:1.12rem;line-height:1.6;margin:.5rem 0 .2rem;font-weight:500}
+.ex{color:var(--mute);margin:0;font-size:.98rem}
+.meta{color:var(--mute);font-size:.8rem}
+.sm{display:grid;gap:1rem;align-content:start}
+.sm .item{display:grid;grid-template-columns:96px 1fr;gap:.8rem}
+.sm .thumb{aspect-ratio:1;border-radius:10px}
+.sm h3{margin:0 0 .1rem;font-size:1rem}
+.sec h2.t{font-family:var(--k);font-size:1.5rem;margin:0 0 1rem;display:flex;align-items:center;gap:.7rem}
+.sec h2.t::before{content:"";width:6px;height:1.4em;background:var(--accent);border-radius:3px}
+.sec h2.t::after{content:"";flex:1;height:1px;background:var(--line)}
+.sec{margin-bottom:2.4rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.2rem}
+.item{transition:transform .25s}
+.item:hover{transform:translateY(-4px)}
+.cases{counter-reset:c;display:grid;gap:.2rem}
+.cases .item{display:grid;grid-template-columns:48px 1fr;gap:.8rem;padding:.8rem 0;border-bottom:1px solid var(--line)}
+.cases .item::before{counter-increment:c;content:counter(c);font-family:var(--k);font-size:2rem;color:var(--accent);line-height:1.2}
+.cases h3{margin:0}
+aside{position:sticky;top:76px;background:var(--navy);color:#e8eefb;border-radius:18px;padding:1.4rem;border-top:5px solid var(--gold)}
+aside h2{font-family:var(--k);font-size:1.45rem;margin:0}
+aside .sub{color:#aebbd6;font-size:.9rem;margin:.1rem 0 1.1rem}
+.dr{display:grid;grid-template-columns:54px 1fr;gap:.8rem;padding:1rem 0;border-top:1px solid #2a3c5f}
+.av{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;font-family:var(--k);font-size:1.5rem;color:var(--navy);background:linear-gradient(135deg,var(--gold),#fff2cf)}
+.dr b{display:block;font-family:var(--k);font-weight:500;line-height:1.5}
+.dr small{color:#9fb0d0;display:block;line-height:1.5}
+.dr p{margin:.3rem 0 0;font-size:.98rem;line-height:1.7}
+.dr:hover p{color:var(--gold)}
+.smp{font-size:.7rem;border:1px solid currentColor;border-radius:4px;padding:0 .3rem;margin-inline-start:.4rem;color:var(--mute);font-family:var(--n)}
+footer{background:var(--navy);color:#b9c6df;padding:2rem 0;font-size:.95rem}
+footer .logo{margin-bottom:.8rem}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+@media (max-width:900px){main{grid-template-columns:1fr}aside{position:static}.lead{grid-template-columns:1fr}nav{margin:0;width:100%}}
+@media (prefers-reduced-motion:reduce){.track{animation:none}.item{transition:none}html{scroll-behavior:auto}}
+.item h3 a:hover{color:var(--accent)}
+.tg{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.2rem}
+.tc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.5rem 1.2rem;text-align:center;transition:transform .25s,box-shadow .25s}
+.tc:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(14,31,61,.15)}
+.tc .av{width:68px;height:68px;margin:0 auto .8rem;font-size:1.8rem;color:#fff;background:linear-gradient(135deg,var(--navy),var(--accent))}
+.tc b{display:block;font-family:var(--k);font-weight:500;font-size:1.15rem;line-height:1.6}
+.tc .rl{display:inline-block;font-family:var(--k);font-size:.8rem;color:var(--accent);margin:.1rem 0 .4rem}
+.tc p{margin:0;color:var(--mute);font-size:.95rem;line-height:1.7}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="logo" viewBox="0 0 64 64"><circle cx="32" cy="32" r="29" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="32" cy="32" r="19" fill="none" stroke="currentColor" stroke-width="2.5" stroke-dasharray="3 5" opacity=".7"/><circle cx="32" cy="32" r="9" fill="none" stroke="currentColor" stroke-width="2.5"/><g><animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" dur="14s" repeatCount="indefinite"/><path d="M32 32 L52.5 11.5" stroke="#e4572e" stroke-width="4" stroke-linecap="round"/><circle cx="52.5" cy="11.5" r="4.6" fill="#e4572e"/></g><circle cx="32" cy="32" r="3.2" fill="#e9b44c"/></symbol></svg>
+<header class="top">
+  <div class="wrap">
+    <div class="bar"><span id="date"></span><button id="th" aria-label="الوضع الليلي">◐ الوضع</button></div>
+    <div class="head">
+      <a class="logo" href="#top" aria-label="نطاق"><svg><use href="#logo"/></svg><span><span class="wm">نطاق</span><span class="tag">المرجع السياسي</span></span></a>
+      <nav id="nav"><a href="#top" class="on">الرئيسية</a><a href="#local">محلي</a><a href="#world">العالم العربي</a><a href="#cases">قضايا سياسية</a><a href="#experts">تحليلات الدكاترة</a><a href="#team">المشرفون</a></nav>
+    </div>
+  </div>
+  <div class="ticker"><b>عاجل</b><div class="track" id="tk"></div></div>
+</header>
+<div class="wrap" id="top">
+<main>
+  <div>
+    <section class="lead" id="lead"></section>
+    <section class="sec" id="local"><h2 class="t">أخبار محلية</h2><div class="cards" id="c-local"></div></section>
+    <section class="sec" id="world"><h2 class="t">أخبار العالم العربي</h2><div class="cards" id="c-world"></div></section>
+    <section class="sec" id="cases"><h2 class="t">قضايا سياسية</h2><div class="cases" id="c-cases"></div></section>
+  </div>
+  <aside id="experts"><h2>تحليلات الدكاترة</h2><p class="sub">قراءات أكاديمية في الشأن السياسي</p><div id="c-dr"></div></aside>
+</main>
+</div>
+<section class="sec wrap" id="team"><h2 class="t">المشرفون على الموقع</h2><div class="tg"><article class="tc"><div class="av">أ</div><b>أيمن مهدي قساوي</b><span class="rl">مشرف على الموقع</span><p>طالب في جامعة الجزائر 3<br>كلية علوم الإعلام والاتصال</p></article><article class="tc"><div class="av">م</div><b>محمد السعيد فاعور</b><span class="rl">مشرف على الموقع</span><p>طالب في جامعة الجزائر 3<br>كلية علوم الإعلام والاتصال</p></article><article class="tc"><div class="av">م</div><b>محمد خليفة محجوبي</b><span class="rl">مشرف على الموقع</span><p>طالب في جامعة الجزائر 3<br>كلية علوم الإعلام والاتصال</p></article></div></section>
+<footer><div class="wrap"><a class="logo" href="#top"><svg><use href="#logo"/></svg><span><span class="wm" style="font-size:1.8rem">نطاق</span><span class="tag">المرجع السياسي</span></span></a><div>© 2026 نطاق. جميع الحقوق محفوظة.</div></div></footer>
+<script>
+var S='<span class="smp">نموذج</span>';
+var D={
+lead:[["سياسة","قراءة في أبرز تطورات المشهد السياسي هذا الأسبوع","هذا نص تجريبي يوضّح شكل الخبر الرئيسي في الصفحة، استبدله بخبرك الحقيقي.","قبل ساعتين","#b3261e","#0e1f3d"]],
+side:[["محلي","عنوان تجريبي لخبر محلي يظهر في الشريط الجانبي","قبل 3 ساعات","#1f6f8b","#0e1f3d"],["عالمي","عنوان تجريبي لخبر دولي بارز في الواجهة","قبل 4 ساعات","#3a4f9a","#0e1f3d"],["اقتصاد","عنوان تجريبي لخبر اقتصادي مرتبط بالشأن العام","قبل 5 ساعات","#7a5a1f","#0e1f3d"]],
+local:[["محلي","عنوان تجريبي: المجلس المحلي يناقش ملف الخدمات العمومية","نص قصير تجريبي يلخّص الخبر المحلي ويعطي القارئ فكرة سريعة.","اليوم","#1f6f8b"],["محلي","عنوان تجريبي: مبادرة جديدة لدعم الشباب في الولاية","نص قصير تجريبي يلخّص الخبر المحلي ويعطي القارئ فكرة سريعة.","اليوم","#2b7a5e"],["محلي","عنوان تجريبي: متابعة لمشاريع الطرق والنقل في المنطقة","نص قصير تجريبي يلخّص الخبر المحلي ويعطي القارئ فكرة سريعة.","أمس","#41607a"]],
+world:[["عربي","أمطار المنخفض الجوي تُغرق آلاف خيام النازحين في غزة وسط مخاوف من تفاقم الأوضاع","تسببت الأمطار الغزيرة المصاحبة للمنخفض الجوي في غرق آلاف الخيام وتسرب المياه إلى أماكن الإيواء في قطاع غزة، مع مخاوف من استمرار الأمطار والرياح وانخفاض الحرارة. وأعلن المكتب الإعلامي الحكومي في غزة غرق نحو 70 ألف خيمة تؤوي عشرات الآلاف من النازحين خلال 12 ساعة، وانهيار عشرات الجدران وسقوط إصابات، بحسب تقرير بي بي سي نيوز عربي.","السبت","#2b5b6e","","المصدر: بي بي سي نيوز عربي"],["عربي","قطر: الوساطة بين واشنطن وطهران مستمرة، وواشنطن ترصد مكافأة عن البرنامج النووي الإيراني","أكد رئيس الوزراء القطري الشيخ محمد بن عبد الرحمن آل ثاني أن جهود الوساطة بين الولايات المتحدة وإيران متواصلة لمنع تفاقم الوضع. وأعلنت واشنطن مكافأة تصل إلى 20 مليون دولار مقابل معلومات عن البرنامج النووي الإيراني، وأفادت بي بي سي بأن طهران رفعت جاهزية جيشها إلى التأهب القصوى.","السبت","#8a3b2b","https://www.bbc.com/arabic/articles/c6d0999d598ko","المصدر: بي بي سي عربي"],["عربي","عنوان تجريبي: اجتماع دولي يبحث ملفات المنطقة العربية","نص قصير تجريبي يلخّص الخبر الدولي ويعطي القارئ فكرة سريعة.","اليوم","#3a4f9a"],["عربي","عنوان تجريبي: تقرير أممي حول التطورات الإقليمية","نص قصير تجريبي يلخّص الخبر الدولي ويعطي القارئ فكرة سريعة.","اليوم","#5a3a8f"],["عربي","عنوان تجريبي: قمة اقتصادية تجمع قادة عدة دول","نص قصير تجريبي يلخّص الخبر الدولي ويعطي القارئ فكرة سريعة.","أمس","#2a5b8f"]],
+cases:[["ملف","عنوان تجريبي: ملف سياسي يتابعه الرأي العام هذا الشهر","نص تجريبي يعرض خلفية القضية وآخر مستجداتها.","تحديث اليوم"],["ملف","عنوان تجريبي: نقاش حول إصلاح المؤسسات والتشريعات","نص تجريبي يعرض خلفية القضية وآخر مستجداتها.","تحديث أمس"],["ملف","عنوان تجريبي: قضية الحريات العامة والإعلام في الواجهة","نص تجريبي يعرض خلفية القضية وآخر مستجداتها.","تحديث قبل يومين"],["ملف","عنوان تجريبي: العلاقات الإقليمية وملفات التعاون المشترك","نص تجريبي يعرض خلفية القضية وآخر مستجداتها.","تحديث هذا الأسبوع"]],
+dr:[["د. اسم المحلل","أستاذ العلوم السياسية","تحليل تجريبي: كيف تتغير موازين القوى في المنطقة؟"],["د. اسم المحللة","باحثة في العلاقات الدولية","تحليل تجريبي: قراءة في مسار التحالفات الجديدة"],["د. اسم المحلل","خبير في الشأن المغاربي","تحليل تجريبي: الأبعاد الاقتصادية للقرار السياسي"],["د. اسم المحلل","أستاذ القانون الدستوري","تحليل تجريبي: الإصلاح الدستوري بين النص والتطبيق"]]};
+function th(c1,c2){return '<div class="thumb" style="--c1:'+c1+';--c2:'+(c2||"#0e1f3d")+'"></div>'}
+function $(i){return document.getElementById(i)}
+$("lead").innerHTML='<article class="item big">'+th(D.lead[0][4],D.lead[0][5])+'<span class="cat" style="margin-top:.6rem">'+D.lead[0][0]+'</span><h2>'+D.lead[0][1]+S+'</h2><p class="ex">'+D.lead[0][2]+'</p><span class="meta">'+D.lead[0][3]+'</span></article><div class="sm">'+D.side.map(function(x){return '<article class="item">'+th(x[3],x[4])+'<div><span class="cat">'+x[0]+'</span><h3>'+x[1]+'</h3><span class="meta">'+x[2]+'</span></div></article>'}).join("")+'</div>';
+function cards(a){return a.map(function(x){return '<article class="item">'+th(x[4])+'<span class="cat" style="margin-top:.5rem">'+x[0]+'</span><h3>'+(x[5]?'<a href="'+x[5]+'" target="_blank" rel="noopener">'+x[1]+'</a>':x[1]+(x[6]?'':S))+'</h3><p class="ex">'+x[2]+'</p><span class="meta">'+x[3]+(x[6]?' | '+x[6]:'')+'</span></article>'}).join("")}
+$("c-local").innerHTML=cards(D.local);$("c-world").innerHTML=cards(D.world);
+$("c-cases").innerHTML=D.cases.map(function(x){return '<article class="item"><div><span class="cat">'+x[0]+'</span><h3>'+x[1]+S+'</h3><p class="ex">'+x[2]+'</p><span class="meta">'+x[3]+'</span></div></article>'}).join("");
+$("c-dr").innerHTML=D.dr.map(function(x){return '<article class="dr"><div class="av">د</div><div><b>'+x[0]+'</b><small>'+x[1]+'</small><p>'+x[2]+'</p></div></article>'}).join("");
+var tk=["قطر تؤكد استمرار الوساطة بين واشنطن وطهران لمنع التصعيد","نموذج لعنوان خبر محلي مهم يظهر في الشريط","نموذج لعنوان خبر دولي يظهر في الشريط"];
+var t=tk.map(function(x){return "<span>"+x+"</span>"}).join("");$("tk").innerHTML=t+t;
+$("date").textContent=new Date().toLocaleDateString("ar-u-nu-latn",{weekday:"long",year:"numeric",month:"long",day:"numeric"});
+$("th").onclick=function(){var r=document.documentElement,c=r.getAttribute("data-theme");var dark=c?c==="dark":window.matchMedia("(prefers-color-scheme:dark)").matches;r.setAttribute("data-theme",dark?"light":"dark")};
+document.querySelectorAll("#nav a").forEach(function(a){a.onclick=function(){document.querySelectorAll("#nav a").forEach(function(b){b.classList.remove("on")});a.classList.add("on")}});
+</script>
+</body>
+</html>
